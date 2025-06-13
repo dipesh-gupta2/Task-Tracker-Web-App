@@ -124,7 +124,7 @@ http://localhost:8080
 
 ## ✉️ Contact
 
-For queries, feel free to contact me at: [your-email@example.com](mailto:your-email@example.com)
+For queries, feel free to contact me at: [dipeshg976@gmail.com](mailto:dipeshg976.com)
 
 ---
 
