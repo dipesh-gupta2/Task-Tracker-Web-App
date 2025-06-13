@@ -46,11 +46,6 @@ src/
 │ │ └── edit-task.html # Form to edit a task
 │ └── application.properties # DB and port configuration
 
-yaml
-Copy
-Edit
-
----
 
 ## 🔄 CRUD Operations
 
@@ -62,7 +57,6 @@ Edit
 | Delete     | `/delete-task/{id}`  | GET    | Delete a task            |
 | Mark Done  | `/complete-task/{id}`| GET    | Mark task as completed   |
 
----
 
 ## ⚙️ How to Run
 
@@ -73,19 +67,13 @@ Edit
 
 ### 📥 Clone the Repository
 
-```bash
 git clone https://github.com/your-username/task-tracker.git
 cd task-tracker 
 ▶️ Run the Application
-bash
-Copy
-Edit
+
 ./mvnw spring-boot:run
 Then, open your browser and visit:
 
-arduino
-Copy
-Edit
 http://localhost:8080
 📚 Interview / Viva Questions
 Question	Answer
@@ -96,7 +84,58 @@ What does @Entity do?	Maps the Java class to a DB table.
 What is @Controller?	Handles HTTP requests and returns views or responses.
 How is data stored?	Using Spring Data JPA (Hibernate) into an H2/MySQL database.
 What is @ModelAttribute in Spring?	Binds HTML form data to Java object.
-What is the role of `	
+
+Run using Maven:
+
+./mvnw spring-boot:run
+Visit in browser:
+
+http://localhost:8080
+🖼️ Screenshots
+Add screenshots of your add-task, tasks, or edit-task pages here for better presentation.
+
+🙋‍♂️ FAQ / Interview Prep
+🔸 What are CRUD operations?
+Create → Add task
+
+Read → View all tasks
+
+Update → Edit task
+
+Delete → Delete task
+
+🔸 What is @Entity, @Controller, @Repository?
+@Entity: Maps a class to a DB table.
+
+@Controller: Handles HTTP requests (MVC).
+
+@Repository: Interface for data access layer (DAO).
+
+🔸 How is data stored?
+Using Spring Data JPA, tasks are stored in a relational database like H2 (in-memory) or MySQL.
+
+❤️ Contributing
+Feel free to fork this repo and submit a Pull Request (PR). For major changes, please open an issue first.
+
+📃 License
+This project is licensed under the MIT License.
+
+🔗 Connect
+GitHub: your-username
+
+LinkedIn: Your Name
+
+### 📝 Notes:
+- Replace `your-username` and profile links with your actual details.
+- If you're using MySQL instead of H2, I can help you add connection config to `application.properties`.
+
+Let me know if you want the screenshots section filled too or want to deploy this project on GitHub Pages, Vercel, or Render.
+
+
+
+
+
+
 
 
 
